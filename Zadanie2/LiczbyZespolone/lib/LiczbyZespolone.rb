@@ -39,22 +39,3 @@ module LiczbyZespolone
   end
 end
 
-#z1 = LiczbyZespolone::ZESPOLONA.new(1,2)
-#z2 = LiczbyZespolone::ZESPOLONA.new(5,3)
-
-#puts "Oto nasze liczby zespolone:"
-#z1.wyswietl
-#z2.wyswietl
-
-#z3 = LiczbyZespolone::ZESPOLONA.new
-#z3 = z1.dodaj(z2)
-#puts "Po dodaniu: rzeczywista: #{z3.x}, urojona: #{z3.y}\n"
-
-#z3 = z1.odejmij(z2)
-#puts "Po odejmowaniu: rzeczywista: #{z3.x}, urojona: #{z3.y}\n"
-
-#z3 = z1.pomnoz(z2)
-#puts "Po mnozeniu: rzeczywista: #{z3.x}, urojona: #{z3.y}\n"
-
-#z3 = z1.podziel(z2)
-#puts "Po dzieleniu: rzeczywista: #{z3.x}, urojona: #{z3.y}\n"

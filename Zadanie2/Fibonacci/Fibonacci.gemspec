@@ -6,10 +6,10 @@ require 'Fibonacci/version'
 Gem::Specification.new do |spec|
   spec.name          = "Fibonacci"
   spec.version       = Fibonacci::VERSION
-  spec.authors       = ["ljadanowski"]
-  spec.email         = ["lukasz.jadanowski@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.author        = "ljadanowski"
+  spec.email         = "lukasz.jadanowski@gmail.com"
+  spec.summary       = "Generuje liczby z ciagu Fibonaciego"
+  spec.description   = "Posiada dwie metody, jedna wywolywana wzorem, druga rekurencyjnie"
   spec.homepage      = ""
   spec.license       = "MIT"
 

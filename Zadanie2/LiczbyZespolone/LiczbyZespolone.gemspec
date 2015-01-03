@@ -6,11 +6,11 @@ require 'LiczbyZespolone/version'
 Gem::Specification.new do |spec|
   spec.name          = "LiczbyZespolone"
   spec.version       = LiczbyZespolone::VERSION
-  spec.authors       = ["ljadanowski"]
-  spec.email         = ["lukasz.jadanowski@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.author        = "ljadanowski"
+  spec.email         = "lukasz.jadanowski@gmail.com"
+  spec.summary       = "My first gems for calculate complex number"
+  spec.description   = "Wykonuje podstawowe operacje na liczbach zespolonych"
+  spec.homepage      = "http://rubygems.org/gems/Liczby-Zespolone"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
