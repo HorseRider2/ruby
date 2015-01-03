@@ -1,5 +1,8 @@
+require 'simplecov'
+SimpleCov.start
+
 require_relative '../lib/LiczbyZespolone'
-require "./spec_helper"
+#require "./spec_helper"
 
 RSpec.describe LiczbyZespolone do
   describe '#dodaj' do

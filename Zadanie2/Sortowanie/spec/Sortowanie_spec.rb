@@ -1,5 +1,8 @@
+require 'simplecov'
+SimpleCov.start
+
 require_relative '../lib/Sortowanie'
-require "./spec_helper"
+#require "./spec_helper"
 
 RSpec.describe Sortowanie do
   describe '#sortuj_rosnaco' do
