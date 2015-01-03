@@ -36,7 +36,7 @@ module LiczbyZespolone
 		c.y = (@y * a.x - @x * a.y)/((a.x ** 2 + a.y ** 2)*1.0)
 		return c
  	end
-end
+  end
 end
 
 #z1 = LiczbyZespolone::ZESPOLONA.new(1,2)

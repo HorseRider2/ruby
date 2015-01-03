@@ -28,17 +28,3 @@ def self.sortuj_malejaco(tablica, rozmiar)
 end
 end
 
-#tablica = [1,0,5,9,2]
-#rozmiar = tablica.size
-#puts "Talica przed posortowaniem: "
-#tablica.each { |a| print "#{a} "}
-#puts ""
-#puts "Talica po sortowaniu rosnaco:"
-#Sortowanie.sortuj_rosnaco(tablica, rozmiar)
-#tablica.each { |a| print "#{a} "}
-#puts ""
-#puts "Talica po sortowaniu malejaco:"
-#Sortowanie.sortuj_malejaco(tablica, rozmiar)
-#tablica.each { |a| print "#{a} "}
-#puts ""
-
